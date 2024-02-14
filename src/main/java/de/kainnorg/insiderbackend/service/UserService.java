@@ -16,10 +16,10 @@ public class UserService {
     public UserService() {
         userList = new ArrayList<>();
 
-        User user1 = new User(0, "Kai", 19, "kai.goe@outlook.de");
-        User user2 = new User(1, "Finn", 18, "finn@email.com");
-        User user3 = new User(2, "Olivia", 100, "Olivia@email.com");
-        User user4 = new User(3, "Aleyna", 150, "aleyna@email.com");
+        User user1 = new User(0, "Kai", 19, "kai.goe@outlook.de", "123");
+        User user2 = new User(1, "Finn", 18, "finn@email.com", "1234");
+        User user3 = new User(2, "Olivia", 100, "Olivia@email.com", "12345");
+        User user4 = new User(3, "Aleyna", 150, "aleyna@email.com", "123456");
 
         userList.addAll(Arrays.asList(user1,user2,user3,user4));
     }
